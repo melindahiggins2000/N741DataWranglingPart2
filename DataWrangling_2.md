@@ -32,3 +32,9 @@ You can also embed plots, for example:
 ![](DataWrangling_2_files/figure-html/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```r
+# some r code to show
+model <- lm(dist ~ speed, data=cars)
+```
+
